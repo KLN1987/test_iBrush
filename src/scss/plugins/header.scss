@@ -1,0 +1,141 @@
+.header__wrapper {
+  margin: 0 auto;
+  max-width: 738px;
+  padding-top: 80px;
+  border-bottom: 1px solid rgba(69, 74, 82, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header__title {
+  color: #0062ff;
+  font-size: 48px;
+  font-family: 'Consolas-Bold', sans-serif;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 68px;
+  display: flex;
+  align-items: center;
+}
+
+.header__title::before {
+  display: inline-block;
+  content: '';
+  width: 140px;
+  height: 1px;
+  background-color: rgba(69, 74, 82, 0.2);
+  margin-right: 30px;
+}
+
+.header__title::after {
+  display: inline-block;
+  content: '';
+  width: 140px;
+  height: 1px;
+  background-color: rgba(69, 74, 82, 0.2);
+  margin-left: 30px;
+}
+
+.header__image {
+  margin-bottom: 20px;
+}
+
+.header__label {
+  color: #202326;
+  font-family: 'Arial', sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 57px;
+}
+
+.header__scroll {
+  position: relative;
+}
+
+.header__scroll-line,
+.header__scroll-slider {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header__wrapper {
+    margin: 0 auto;
+    max-width: 320px;
+    padding-top: 41px;
+    border-bottom: none;
+  }
+
+  .header__title {
+    margin: auto;
+    justify-content: space-between;
+    font-size: 24px;
+    font-family: 'Consolas-Bold', sans-serif;
+    line-height: 48px;
+    margin-bottom: 24px;
+    order: -1;
+    margin: auto;
+  }
+
+  .header__title::before,
+  .header__title::after {
+    width: 21px;
+  }
+
+  .header__title::before {
+    margin-right: 20px;
+  }
+  .header__title::after {
+    margin-left: 20px;
+  }
+
+  .header__label {
+    margin: auto;
+    order: -1;
+    margin-bottom: 29px;
+    color: #202326;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 18px;
+    width: 280px; 
+  }
+
+  .header__scroll {
+    margin-bottom: 60px;
+    margin-left: 20px;
+  }
+
+  .header__container-img {
+    overflow-y: hidden;
+    width: 100%; 
+    height: 300px;
+  }
+
+  .header__image {
+    margin-bottom: 0;
+  }
+
+  .header__scroll-line {
+    display: block;
+    width: 280px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #e6e6e6;;
+    position: absolute;
+    top: 330px;
+    left: 0;
+  }
+
+  .header__scroll-slider {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #0062ff;
+  }
+}

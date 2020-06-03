@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Consolas';
+  src: url('../fonts/Consolas.woff') format("woff");
+  src: url('../fonts/Consolas.woff2') format("woff2");
+  font-style: normal;
+  font-weight: normal;
+ }
+
+ @font-face {
+  font-family: 'Arial';
+  src: url('../fonts/ArialMT.woff') format("woff");
+  src: url('../fonts/ArialMT.woff2') format("woff2");
+  font-style: normal;
+  font-weight: normal;
+ }
+
+ @font-face {
+  font-family: 'SegoeUI';
+  src: url('../fonts/SegoeUI.woff') format("woff");
+  src: url('../fonts/SegoeUI.woff2') format("woff2");
+  font-style: normal;
+  font-weight: normal;
+ }
+
+ @font-face {
+  font-family: 'Consolas-Bold';
+  src: url('../fonts/Consolas-Bold.woff') format("woff");
+  src: url('../fonts/Consolas-Bold.woff') format("woff2");
+  font-style: normal;
+  font-weight: 700;
+ }
+
+ @font-face {
+  font-family: 'SegoeUI-italic';
+  src: url('../fonts/SegoeUI-Italic.woff') format("woff");
+  src: url('../fonts/SegoeUI-Italic.eot') format("eot");
+  src: url('../fonts/SegoeUI-Italic.ttf') format("ttf");
+  font-style: italic;
+  font-weight: normal;
+ }

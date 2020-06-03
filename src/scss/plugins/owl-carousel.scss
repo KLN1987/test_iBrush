@@ -1,0 +1,37 @@
+.owl-carousel .owl-item:nth-child(4) img,
+.owl-carousel .owl-item:nth-child(7) img {
+  width: auto;
+}
+
+.owl-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.owl-carousel button.owl-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #cccccc;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 41px;
+  margin-bottom: 64px;
+  max-width: auto;
+}
+.owl-carousel button.owl-dot.active {
+  width: 14px;
+  height: 14px;
+  background-color: #0062ff;
+}
+
+@media (max-width: 768px) {
+  .owl-carousel .owl-item:nth-child(4) img,
+  .owl-carousel .owl-item:nth-child(7) img  {
+    width: 100%;
+  }
+}

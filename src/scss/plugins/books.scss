@@ -1,0 +1,30 @@
+.books {
+  background-color: #ffffff;
+  width: 226px;
+  position: absolute;
+  top: 54px;
+  left: 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #e6e6e6;
+}
+
+.books__list {
+  padding: 0;
+}
+.books__item {
+  list-style-type: none;
+  padding: 12px 15px;
+}
+
+.books__link {
+  text-decoration: none;
+  color: #222222;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+.books__item:hover {
+  background-color: #ededed;
+  border-left: 4px solid #0062ff;;
+}

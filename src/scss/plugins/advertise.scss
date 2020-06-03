@@ -1,0 +1,58 @@
+.advertise {
+  padding-top: 34px;
+  background-color: #ededed;
+}
+
+.advertise__wrapper {
+  margin: auto;
+  max-width: 738px;
+  padding-top: 34px;
+  padding-bottom: 36px;
+}
+
+.advertise__text {
+  color: #000000;
+  font-family: 'SegoeUI', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 14px;
+  display: flex;
+}
+
+.advertise__link {
+  font-family: 'SegoeUI', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0062ff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.advertise__link:after {
+  content:'';
+  width: 65px;
+  height: 1px;
+  background-color: rgba(0, 98, 255, 0.2);
+  margin-top: 4px;
+}
+
+.advertise__image {
+  background: url('../img/advetise-desktope.png') no-repeat 0 0;
+  height: 200px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .advertise__wrapper {
+    max-width: 280px;
+    padding-top: 22px;
+    padding-bottom: 20px;  
+  }
+
+  .advertise__image {
+    background: url('../img/book-mobile.png') no-repeat 0 0;
+  }
+}

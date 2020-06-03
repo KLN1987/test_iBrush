@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test iBrush</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <h2 class="header__title">Путь JavaScript</h2>
+      <div class="header__scroll">
+        <div class="header__container-img">
+          <img class="header__image" alt="Фото книг" src="img/books-header.png" width="738" height="300">
+        </div>
+        <div class="header__scroll-line">
+          <div class="header__scroll-slider"></div>
+        </div>
+      </div>
+      <p class="header__label">Можно выделить три основных направления для прогресса JavaScript Middle</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="quote">
+      <h2 class="quote__title">Серверный JavaScript</h2>
+      <div class="quote__wrapper">
+        <img class="quote__image" alt="Цитата" src="img/quotation-mark.svg">
+        <div class="quote__text">
+          <p class="quote__article">Разработчики и клиенты часто неправильно понимают, что такое система. Они видят
+            графический интерфейс и думают, что он и есть система. Они определяют систему в терминах графического
+            интерфейса и считают, что должны сразу начать работу с графическим интерфейсом. Они не понимают важнейшего
+            принципа: ввод/вывод не важен.</p>
+          <p class="quote__name">&#8212; Р. Мартин</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="advertise">
+      <div class="advertise__wrapper">
+        <p class="advertise__text">Реклама на <a href="http://blabla.com/" class="advertise__link">blabla.com</a></p>
+        <div class="advertise__image"></div>
+    </section>
+
+    <section class="conclusion">
+      <h2 class="conclusion__title">Заключение</h2>
+      <p class="conclusion__text">Синхрония осознаёт сюжетный верлибр. Мифопорождающее текстовое устройство диссонирует
+        лирический субъект. Абстрактное высказывание пространственно просветляет деструктивный символ. Ямб, несмотря на
+        то, что все эти характерологические черты отсылают не к единому образу нарратора, интегрирует мифопоэтический
+        хронотоп. Действительно, ударение приводит палимпсест. Контрапункт приводит ритм.</p>
+    </section>
+
+    <section class="feedback">
+      <div class="feedback__wrapper">
+        <div class="feedback__rating">
+          <h3 class="feedback__rating-title">Оцените статью</h3>
+          <div class="feedback__rating-stars">
+            <input class="feedback__rating-input" type="radio" id="star-1" name="rating" value="1">
+            <label class="feedback__rating-label" for="star-1" title="Оценка «1»"></label>
+            <input class="feedback__rating-input" type="radio" id="star-2" name="rating" value="2">
+            <label class="feedback__rating-label" for="star-2" title="Оценка «2»"></label>
+            <input class="feedback__rating-input" type="radio" id="star-3" name="rating" value="3">
+            <label class="feedback__rating-label" for="star-3" title="Оценка «3»"></label>
+            <input class="feedback__rating-input" type="radio" id="star-4" name="rating" value="4">
+            <label class="feedback__rating-label" for="star-4" title="Оценка «4»"></label>
+            <input class="feedback__rating-input" type="radio" id="star-5" name="rating" value="5">
+            <label class="feedback__rating-label" for="star-5" title="Оценка «5»"></label>
+          </div>
+          <form class="feedback__form" action="#" method="post">
+            <fieldset class="feedback__fieldset">
+              <legend class="feedback__legend">Добавить комментарий к книге</legend>
+              <div class="feedback__form-container">
+                <div class="feedback__form-wrapper">
+                  <input class="feedback__input" type="text" id="name" required>
+                  <label class="feedback__label" for="name">Имя</label>
+                </div>
+                <div class="feedback__form-wrapper">
+                  <input class="feedback__input" type="text" id="email" required>
+                  <label class="feedback__label" for="email">E-mail</label>
+                </div>
+                <div class="feedback__form-wrapper feedback__books">
+                  <input class="feedback__input input__books" type="text" id="books" required>
+                  <label class="feedback__label label__books" for="books">Выберите книгу</label>
+                  <img class="feedback__arrow" alt="стрелка" src="img/arrow.png">
+                  <div class="books hidden">
+                    <ul class="books__list">
+                      <li class="books__item">
+                        <p class="books__link">JavaScript ниндзя</p>
+                      </li>
+                      <li class="books__item">
+                        <p class="books__link">Pragmatic Guide to JavaScript</p>
+                      </li>
+                      <li class="books__item">
+                        <p class="books__link">Pro JavaScript Techniques</p>
+                      </li>
+                      <li class="books__item">
+                        <p class="books__link">Выразительный JavaScript</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <textarea class="feedback__area" placeholder="Ваш отзыв" required></textarea>
+              </div>
+            </fieldset>
+            <button class="feedback__button" type="submit">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <h2 class="footer__title">Похожие посты</h2>
+      <div class="footer__links owl-carousel">
+        <div class="footer__post">
+          <div class="footer__post-wrap">
+            <img class="footer__post-img footer__post-react" alt="React" src="img/react-img.png">
+          </div>
+          <a href="#" class="footer__post-text">События жизненного цикла ReactJS</a>
+        </div>
+        <div class="footer__post">
+          <div class="footer__post-wrap">
+            <img class="footer__img" alt="Grid" src="img/grid-img.png">
+          </div>
+          <a href="#" class="footer__post-text">CSS Grids. Полное руководство</a>
+        </div>
+        <div class="footer__post">
+          <div class="footer__post-wrap">
+            <img class="footer__img" alt="JS" src="img/js-img.png">
+          </div>
+          <a href="#" class="footer__post-text">Асинхронность в JavaScript</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<!--  <script src="js/plugins/owl.carousel.min.js"></script>
+  <script src="js/plugins/list.js"></script>
+  <script src="js/plugins/scroll.js"></script>
+  <script src="js/plugins/carusel.js"></script>-->
+
+ <script src="js/lib.js"></script>
+</body>
+
+</html>

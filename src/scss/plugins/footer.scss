@@ -1,0 +1,63 @@
+.footer__wrapper {
+  padding-top: 60px;
+  margin: 0 auto;
+  max-width: 738px;
+}
+
+.footer__title {
+  color: #272522;
+  font-size: 28px;
+  line-height: 24px;
+  margin-bottom: 39px;
+}
+
+.footer__links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer__post {
+  width: 226px;
+}
+
+.footer__post-wrap {
+  background-color: #61dafb;
+  height: 226px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.footer__post-text {
+  text-decoration: none;
+  color: #272522;
+  font-family: 'Consolas-Bold', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer__post-react {
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .footer__wrapper {
+    padding-top: 40px;
+    max-width: 280px;
+  }
+
+  .footer__post {
+    width: 100%;
+  }
+
+  .footer__post-wrap {
+    height: 280px;
+  }
+
+  .footer__post-img {
+    width: auto;
+  }
+}
