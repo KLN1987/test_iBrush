@@ -320,6 +320,7 @@ body {
   margin: auto;
   max-width: 738px;
   padding-top: 60px;
+  padding-bottom: 76px;
 }
 
 .conclusion__title {
@@ -335,13 +336,13 @@ body {
   font-family: 'Arial', sans-serif;
   font-size: 16px;
   line-height: 24px;
-  margin-bottom: 76px;
 }
 
 @media (max-width: 768px) {
   .conclusion {
     max-width: 280px;
     padding-top: 40px;
+    padding-bottom: 37px;
   }
 
   .conclusion__title {
@@ -353,7 +354,6 @@ body {
   .conclusion__text {
     font-size: 14px;
     line-height: 18px;
-    margin-bottom: 37px;
   }
 }
 
@@ -560,6 +560,7 @@ body {
   padding-top: 60px;
   margin: 0 auto;
   max-width: 738px;
+  padding-bottom: 83px;
 }
 
 .footer__title {
@@ -605,6 +606,7 @@ body {
   .footer__wrapper {
     padding-top: 40px;
     max-width: 280px;
+    padding-bottom: 0;
   }
 
   .footer__post {
